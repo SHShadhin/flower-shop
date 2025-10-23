@@ -178,19 +178,21 @@ header,
 
 /* insta section */
 
-/* .instagram {
+.instagram {
   margin: 120px 0;
 }
-.container .insta-images {
+.insta-images {
   display: flex;
   gap:20px;
   margin: 0 auto;
 }
 
-.insta-images.img {
+.insta-images div {
+  min-width: 250px;
+}
+.insta-images img {
   width: 100%;
-  max-width: 100px;
-} */
+}
 
 
 /* newsletter styles */
@@ -220,3 +222,5 @@ header,
   border: none;
   outline: none;
 }
+
+
