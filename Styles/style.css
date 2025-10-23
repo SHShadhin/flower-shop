@@ -18,7 +18,7 @@ p {
 }
 
 /* Banner section styles */
-header {
+header,#hot-deal {
   background: rgba(229, 84, 115, 0.1);
 }
 
@@ -43,8 +43,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
 }
-
-.banner-text .btn {
+ .btn {
   border-radius: 8px;
   background: rgba(229, 84, 115, 1);
   color: rgba(255, 255, 255, 1);
@@ -68,7 +67,7 @@ header {
 
 /* featured styles */
 .featured-section {
-  padding: 160px 0;
+  padding: 130px 0;
 }
 .section-heading {
   max-width: 500px;
@@ -119,7 +118,7 @@ header {
 
 .flowers h3 {
   color: rgba(39, 39, 39, 1);
-  margin-top: 20px ;
+  margin-top: 20px;
   font-family: Lato;
   font-size: 20px;
   font-weight: 700;
@@ -127,4 +126,54 @@ header {
   letter-spacing: 0%;
   text-align: center;
   text-decoration-line: underline;
+}
+
+/* icon section styles */
+
+.container .icon-content {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+  padding: 86px 175px;
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+
+
+/* hot deal section */
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+.hot-deal-content {
+  width: 755;
+  max-width: 550px;
+  text-align: center;
+
+}
+.hot-deal-content * {
+  margin-bottom: 20px;
+}
+.hot-deal-content h1 {
+  font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.hot-deal-content p {
+  color: rgba(39, 39, 39, 0.6);
+
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
 }
